@@ -1,6 +1,6 @@
 @font-face {
     font-family: Helvetica-bold;
-    src: url("../fonts/Helvetica-Rounded-Bold.otf");
+    src: url("{ % static 'fonts/Helvetica-Rounded-Bold.otf' %}");
 }
 body a {
   transition: 0.5s all;
@@ -18,12 +18,12 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url('{% static 'images/1.jpg}') no-repeat 0px 0px;
     background-size: cover;
 	min-height:750px;
 }
 .banner-dot {
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url('{% static 'images/dott.png' %})repeat 0px 0px;
     background-size: 3px;
     -webkit-background-size: 3px;
     -moz-background-size: 3px;
@@ -38,12 +38,12 @@ body{
     background-position: 50% 50%;
 }
 .banner-1 {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url('{% static 'images/1.jpg' %}') no-repeat 0px 0px;
     background-size: cover;
     min-height: 350px;
 }
 .agileinfo-dot-1 {
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url('{% static 'images/dott.png' %}')repeat 0px 0px;
     background-size: 3px;
     -webkit-background-size: 3px;
     -moz-background-size: 3px;
@@ -452,7 +452,7 @@ p.w3agile {
 /*-- //abt-w3agile --*/
 /*-- wthree-mid --*/
 .wthree-mid {
-    background: url(../images/mid-banner.jpg) no-repeat 0px 0px;
+    background: url('{% static 'images/mid-banner.jpg' %}') no-repeat 0px 0px;
     background-size: cover;
 	padding:5em 0;
 	text-align:center;
@@ -597,7 +597,7 @@ ul.wmuSliderPagination {
 /*-- //testimonials --*/
 /*-- services-bottom --*/
 .services-bottom{
-	background: url(../images/mid-banner.jpg) no-repeat 0px 0px;
+	background: url('{% static 'images/mid-banner.jpg' %}') no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -948,7 +948,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	background: url('{% static 'images/arrow.png' %}') no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
