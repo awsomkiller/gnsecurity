@@ -869,10 +869,31 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .w3_agile_about_grid_left h3{
 	font-size:1.4em;
 	color:#212121;
-	line-height:1.5em;
+	line-height:4.5em;
 	text-transform: capitalize;
 	margin:0;
+    text-align: center;
+    font-weight: bold;
 }
+
+.w3_agile_about_grid_left_h3:before, .w3_agile_about_grid_left_h3:after {
+    position: absolute;
+    background: #ff0000;
+    height: 2px;
+    content: '';
+}
+.w3_agile_about_grid_left_h3:before {
+    width: 11%;
+    bottom: 60%;
+    left: 44.5%;
+}
+.w3_agile_about_grid_left_h3:after {
+    width: 18%;
+    right: 41%;
+    bottom: 55%;
+}
+
+
 .w3_agile_about_grid_left p i{
 	color:#dd0001;
 	display:block;
@@ -881,6 +902,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .w3_agile_about_grid_left p{
 	color:#999;
 	line-height:2em;
+    text-align: center;
 }
 /*-- //breadcrumbs --*/
 /*-- about --*/
