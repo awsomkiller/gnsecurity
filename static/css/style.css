@@ -884,13 +884,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 }
 .w3_agile_about_grid_left_h3:before {
     width: 11%;
-    bottom: 60%;
+    bottom: 80%;
     left: 44.5%;
 }
 .w3_agile_about_grid_left_h3:after {
     width: 18%;
     right: 41%;
-    bottom: 55%;
+    bottom: 78%;
 }
 
 
@@ -902,7 +902,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .w3_agile_about_grid_left p{
 	color:#999;
 	line-height:2em;
-    text-align: center;
+    text-align: justify;
 }
 /*-- //breadcrumbs --*/
 /*-- about --*/
@@ -1785,6 +1785,7 @@ ul.agileits_social_list {
 	padding:2em;
 	background:#f5f5f5;
 	position:relative;
+    cursor: pointer;
 }
 .agileinfo_services_grid1_pos{
 	position: absolute;
